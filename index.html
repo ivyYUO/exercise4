@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Online Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #f1f1f1;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .product {
+      width: 30%;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    .product button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Online Store</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+  <div class="container">
+    <section id="home" class="hero">
+      <h1>Welcome to My Online Store</h1>
+      <p>With a wide variety of products from trusted brands, you can shop with confidence knowing you're getting the best value for your money. Plus, our easy-to-navigate website makes it simple to find exactly what you're looking for. Enjoy exclusive promotions and discounts, and save big on your favorite items!</p>
+      <button>Shop Now</button>
+      <button>Explore Our Latest Deals</button>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>At <strong>My Online Store</strong>, we are a customer-focused online store dedicated to providing high-quality products at affordable prices. We carefully select our inventory to ensure you have access to the best in gadgets, fashion, home goods, and more. Your satisfaction is our top priority, and we strive to make your shopping experience as enjoyable and hassle-free as possible.</p>
+      <h3>Why Choose Us?</h3>
+      <ul>
+        <li>Curated selection of premium products</li>
+        <li>Affordable prices with exclusive discounts</li>
+        <li>Fast and reliable shipping</li>
+        <li>Exceptional customer service</li>
+      </ul>
+    </section>
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/467476857_1273275247127322_5640949813054044829_n.png?_nc_cat=104&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeG9h0qtftsNeq0Egy4MnMHgqpR5I_xgkauqlHkj_GCRqzxXqVhf6xERfy-ehjNEYdfTzW2uQa_lVBhIWV9wnDJh&_nc_ohc=hk-g2j65RL8Q7kNvgGZW3RW&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHZeE-Ax_MKPxPCWbR2UotFU834pp1KIoriB1dYZyAQfA&oe=67C2E954" alt="Korean Fashion Heels">
+          <h3>Korean Fashion Heels</h3>
+          <p>Leather Pointed Sandals for Women – Perfect for office, casual, or a sexy night out.</p>
+          <p><strong>$49.99</strong></p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/472661766_1324499318996572_9105738444373560101_n.png?stp=dst-png_s480x480&_nc_cat=101&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEWKKlkJz4d9EGR4RTaSS-YA4pISlhTJ6UDikhKWFMnpUEaHuDDPYu1EaWZFIaoIFh457DGGBbZ3ba81zI5165m&_nc_ohc=GD9DOcYlJIcQ7kNvgFNfbzv&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gGgQsPOQev0iQqTtWH7amIZnHbwMkkXpzqeyXjQ74WMOA&oe=67C2E37C" alt="F&F Maxi Dress">
+          <h3>F&F Open Shoulder Maxi Dress</h3>
+          <p>Party & Cocktail Long Gown Dress – Fashionable off-shoulder design for an elegant look.</p>
+          <p><strong>$79.99</strong></p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/471911087_1230698671359180_3492413769094739040_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHmUqnFClOoXIySein6MHiq7YpnuEnStAHtime4SdK0AS5BtxmoVLRh9qDPwD9pUYnPl_nesarEmE1XuTZ7LiBH&_nc_ohc=CEn2GRJjhzAQ7kNvgHLp5Sr&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gE-vshiteQGLO_xFrtr9nCJqEj6QADINYJATwU3Ta_UEw&oe=67C2D011" alt="Trendy Shoulder Bag">
+          <h3>Trendy Shoulder Bag</h3>
+          <p>Fashion All-Match Messenger Bag – A temperamental small square bag for any occasion.</p>
+          <p><strong>$39.99</strong></p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <button style="display: block; margin: 20px auto;">View All Products</button>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have any questions? We’re here to assist you! Reach out to us via email at <strong>support@myonlinestore.com</strong>, or feel free to call us at <strong>(123) 456-7890</strong>. Our customer service team is ready to help with any inquiries or concerns you may have.</p>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p>© 2025 My Online Store. All rights reserved.</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a> | 
+      <a href="#">Shipping Policy</a> | 
+      <a href="#">Return Policy</a>
+    </p>
+  </footer>
+</body>
+</html>
